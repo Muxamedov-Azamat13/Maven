@@ -15,7 +15,7 @@ public class Main {
     class HelloController {
         @GetMapping("/")
         public String hello() {
-            return "Hello from Maven!";
+            return "Hello from Spring!";
         }
     }
 }
